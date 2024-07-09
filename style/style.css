@@ -4,4 +4,133 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Azeret Mono', sans-serif, Arial;
+}
+
+
+/*shared style*/
+.primary-color{
+  color: #0D1321;
+}
+.txt-center{
+  text-align: center;
+}
+
+.descriptions{
+  font-size: 16px;
+  font-weight: 400;
+  color: #0D1321;
+  line-height: 1.6;
+}
+
+.section-heading{
+  font-size: 32px;
+  font-weight: 900;
+  color: #0D1321;
+}
+
+.sub-heading{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.btn{
+  font-size: 20px;
+  font-weight: 600;
+  padding: 21px 24px;
+  border-radius: 8px;
+}
+
+
+
+
+/*hero section css*/
+header {
+  margin-bottom: 74px;
+}
+
+header #hero{
+  background: url('../Img/Hero-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 45px 221px;
+}
+
+#hero .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+}
+
+#hero .container h1{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+
+#hero .container a{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0D1321;
+}
+
+
+/*why-web-dev sections css*/
+#why-web-dev .container{
+  margin: 0 150px;
+  padding: 80px 97px;
+  background-color: rgba(13, 19, 33, 2%);
+}
+
+#why-web-dev .container .section-header{
+  margin-bottom: 48px;
+}
+
+#why-web-dev .container .section-header h2{
+  margin-bottom: 24px;
+}
+
+#why-web-dev .container .wwd-items-1, #why-web-dev .container .wwd-items-3{
+  background: linear-gradient(to right , #ffffff, #ffffff00);
+  border-radius: 16px;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 100px;
+}
+
+#why-web-dev .container .wwd-items-2{
+  background: linear-gradient(to left , #ffffff, #ffffff00);
+  border-radius: 16px;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 100px;
+}
+
+#why-web-dev .container .wwd-column h3{
+  color: rgba(13, 19, 33, 70%);
+  padding-right: 80px;
+}
+
+#why-web-dev .container .wwd-column img{
+  width: 240px;
+}
+
+#why-web-dev .container .wwd-column  p{
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+#why-web-dev .container .wwd-column a{
+  text-decoration: none;
+  padding: 12px 20px;
+  color: #0D1321;
+  border: 1px solid #0D1321;
+  border-radius: 0;
 }
