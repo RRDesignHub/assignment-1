@@ -76,6 +76,7 @@ header #hero{
   color: #ffffff;
   background-color: #0D1321;
   border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
 }
 
 #hero .container a:hover, #hero .container a:focus, #hero .container a:active{
@@ -239,6 +240,7 @@ header #hero{
 /*contact section css*/
 #contact {
   margin: 0  150px 90px 150px;
+  transition: all 0.5s ease;
 }
 
 #contact .container{
@@ -332,9 +334,13 @@ header #hero{
 
 #footer .container .follow-icons a{
   text-decoration: none;
+  
+}
+
+#footer .container .follow-icons a img{
   transition: all 0.2s ease-in-out;
 }
 
-#footer .container .follow-icons a:hover, #footer .container .follow-icons a:focus, #footer .container .follow-icons a:active{
+#footer .container .follow-icons img:hover, #footer .container .follow-icons img:focus, #footer .container .follow-icons img:active{
   transform: scale(1.1);
 }
