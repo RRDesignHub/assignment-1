@@ -8,6 +8,11 @@
 }
 
 
+html{
+  scroll-behavior: smooth;
+}
+
+
 /*shared style*/
 .primary-color{
   color: #0D1321;
